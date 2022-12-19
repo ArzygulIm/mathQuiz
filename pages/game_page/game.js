@@ -243,6 +243,7 @@ document.getElementById('checkBtn').addEventListener('click', event => {
         changeScoreSpan.classList.remove("redColor", "greenColor")
         answerStr = ""
         document.getElementById('answerInput').value = ""
+        document.getElementById('answerInput').focus()
         changeScoreSpan.textContent = ''
         document.querySelector(".scoreSpan").innerHTML = `${score}`
         document.querySelector('.answerSpan').textContent = answerStr

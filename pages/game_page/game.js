@@ -215,6 +215,7 @@ function timer() {
 
 document.querySelector('.answerSpan').addEventListener('click', () => {
     document.getElementById('answerInput').style.display = "block"
+    document.getElementById('checkBtn').style.display = "block"
 })
 
 document.getElementById('checkBtn').addEventListener('click', event => {

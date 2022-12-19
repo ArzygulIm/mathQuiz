@@ -98,9 +98,15 @@
 
 #answerInput {
     display: none;
-
     &::-webkit-outer-spin-button,
     &::-webkit-inner-spin-button {
         -webkit-appearance: none;
     }
+}
+
+#checkBtn{
+    display: none;
+    padding: 5px 15px;
+    background-color: rgb(238, 255, 0);
+    font-family: 'Laila', sans-serif;
 }

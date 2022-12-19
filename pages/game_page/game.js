@@ -3,7 +3,7 @@ function redirectToMain() {
 }
 !JSON.parse(localStorage.getItem('current player')) ? redirectToMain() : null
 
-JSON.parse(localStorage.getItem('current player'))?document.querySelector(".gameName").textContent = JSON.parse(localStorage.getItem('current player')).name[0].toUpperCase() + JSON.parse(localStorage.getItem('current player')).name.slice(1).toLowerCase():null
+JSON.parse(localStorage.getItem('current player')) ? document.querySelector(".gameName").textContent = JSON.parse(localStorage.getItem('current player')).name[0].toUpperCase() + JSON.parse(localStorage.getItem('current player')).name.slice(1).toLowerCase() : null
 let playersScoreArray = JSON.parse(localStorage.getItem('current player array')) ? JSON.parse(localStorage.getItem('current player array')) : []
 let question = {}
 let level = 1
@@ -213,6 +213,39 @@ function timer() {
     })
 }
 
-document.querySelector('.answerSpan').addEventListener('click',()=>{
+document.querySelector('.answerSpan').addEventListener('click', () => {
     document.getElementById('answerInput').style.display = "block"
+})
+
+document.getElementById('checkBtn').addEventListener('click', event => {
+    const changeScoreSpan = document.querySelector('.changeScoreSpan')
+    changeScoreSpan.classList.add("fade-in-to-up")
+    if (question.answer == answerStr) {
+        score++
+        rightAnswerCounter++
+        rightAnswerCounterForLevel++
+        changeScoreSpan.textContent = "+1"
+        changeScoreSpan.classList.add("greenColor")
+    } else {
+        wrongAnswerCounter++
+        if (score !== 0) {
+            score--
+            changeScoreSpan.textContent = "-1"
+            changeScoreSpan.classList.add("redColor")
+        }
+        rightAnswerCounterForLevel = 0
+    }
+    level < 3 ? changeLevel() : null
+    document.querySelector('.question__answer').classList.add("fade-out-to-left")
+    setTimeout(() => {
+        changeScoreSpan.classList.remove("redColor", "greenColor")
+        answerStr = ""
+        document.getElementById('answerInput').value = ""
+        changeScoreSpan.textContent = ''
+        document.querySelector(".scoreSpan").innerHTML = `${score}`
+        document.querySelector('.answerSpan').textContent = answerStr
+        document.querySelector('.question__answer').classList.remove("fade-out-to-left")
+        changeScoreSpan.classList.remove("fade-in-to-up")
+        getRandomQuestion()
+    }, 400)
 })

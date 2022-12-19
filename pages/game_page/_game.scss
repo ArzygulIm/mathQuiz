@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+#level {
+    padding: 20px 0 10px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 40px;
+    color: red;
+}
+
+.level__wrap { 
+    width: 100%;
+
+    div{
+        column-gap: 10px;
+    }
+}
+
+.levels {
+    width: 33.333333%;
+    padding: 5px;
+    background-color: aliceblue;
+    border: 3px solid rgb(114, 114, 114);
+}
+
+#practice, #timeAttack {
+    padding: 10px 0;
+    font-family: 'Laila', sans-serif;
+}
+
+.practice, .timeAttack {
+    &__wrap {
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.question__wrap {
+    overflow: hidden;
+    height: 150px;
+    width: 300px;
+    border: 3px solid rgb(114, 114, 114);
+    font-size: 40px;
+    row-gap: 10px;
+}
+
+.questionSpan{
+    height: 62px;
+    margin-right: -10px;
+}
+.answerSpan {
+    height: 62px;
+}
+
+.score__wrap {
+    position: relative;
+    margin: 10px 0;
+}
+
+.changeScoreSpan {
+    position: absolute;
+    right: 0;
+}
+
+.stopGame{
+    cursor: pointer;
+    padding: 10px;
+    span{
+        font-size: 20px;
+    }
+    img{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+}
+
+
+.greenColor {
+    color: green;
+}
+
+.redColor {
+    color: red;
+}
+
+.greenBack {
+    background-color: green;
+    text-shadow: 1px 1px 2px red, -1px 1px 2px red, 1px -1px 2px red, -1px -1px 2px red;
+    border: none;
+}

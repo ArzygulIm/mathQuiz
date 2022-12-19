@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@900&display=swap');
+#gameOverModal{
+    font-family: 'Merienda', cursive;
+}
+.backdrop{
+    position: fixed;
+    top:0;
+    bottom:0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255,0.2);
+    z-index: 2;
+    backdrop-filter: blur(10px);
+}
+.backdropActive{
+    display: block;
+}
+
+.hidden{
+    overflow:hidden;
+}
+
+.modal{
+    position: fixed;
+    padding: 50px 20px;
+    left:0;
+    right: 0;
+    bottom:0;
+    top:0;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 75%;
+    transition:transform 0.1s;
+    transform:scale(0);
+    z-index: 3;
+    h6{
+        font-size: 50px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    button{
+        font-family: 'Merienda', cursive;
+        font-size: 15px;
+    }
+}
+
+.modalActive{
+    transform:scale(1);
+}
+#newGame{
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.modalContent{
+    row-gap: 20px;
+}
+.modalScore{
+    font-size: 50px;
+}
+.rightAnswerWrap,
+.wrongAnswerWrap{
+    font-size: 20px;
+}

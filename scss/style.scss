@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(132deg, #fff7d4, #b4fccc);
+    background-size: 400% 400%;
+    animation: Gradient 10s infinite;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@import "header";
+@import "flexBox";
+@import "background";
+@import "name";
+@import "main";
+@import "../pages/rules/rulesStyle.scss";
+@import "../pages/game_page/timer";
+@import "../pages/game_page/game";
+@import "../pages/game_page/gameModal";
+@import "../pages/leaders/leadersStyle";
+@import "animations";

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Attack</title>
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link rel="stylesheet" href="../../styles/media.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__wrap flex flex-ai-c flex-jc-sb">
+                <div class="game-title__wrap flex">
+                    <p>Have fun,</p>
+                    <p class="gameName"></p>
+                </div>
+                <a href="../../index.html" class="logo flex flex-ai-c flex-jc-c">
+                    <img src="../../images/logoMath.png" alt="">
+                    <p>Main</p>
+                </a>
+                <button id="logOut">Log out!</button>
+            </div>
+        </div>
+    </header>
+    <section id="level">
+        <div class="container">
+            <div class="level__wrap">
+                <div>
+                    LEVEL
+                </div>
+                <div class="flex">
+                    <div class="levels flex flex-ai-c flex-jc-c">1</div>
+                    <div class="levels flex flex-ai-c flex-jc-c">2</div>
+                    <div class="levels flex flex-ai-c flex-jc-c">3</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeAttack">
+        <div class="container">
+            <div class="timeAttack__wrap flex flex-fd-c flex-jc-sa flex-ai-c">
+
+                <div class="flex flex-fd-c flex-jc-c flex-ai-c">
+                    <div class="question__wrap flex flex-jc-c flex-ai-c">
+                        <div class="question__answer">
+                            <span class="questionSpan"></span>
+                            <span class="answerSpan"></span>
+                        </div>
+                    </div>
+                    <div class="score__wrap">
+                        <span>Score:</span>
+                        <span class="scoreSpan">0</span>
+                        <span class="changeScoreSpan"></span>
+                    </div>
+
+                    <button class="stopGame flex flex-ai-c">
+                        <img src="../../images/stop.png" alt="">
+                        <span>Stop game</span>
+                    </button>
+                </div>
+
+                <div id="timer">
+                    <div class="timerChild"></div>
+                    <span class="timerSpan"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gameOverModal">
+        <div class="backdrop"></div>
+        <div class="modal">
+            <div class="modalContent flex flex-fd-c flex-ai-c">
+                <h6>Game Over</h6>
+                <div class="modalScore"></div>
+                <div class="rightAnswerWrap"></div>
+                <div class="wrongAnswerWrap"></div>
+                <a href="../../index.html">Go To Main</a>
+                <a href="../leaders/leaders.html">Leaders</a>
+                <button id="newGame">New Game</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="./game.js"></script>
+</body>
+
+</html>

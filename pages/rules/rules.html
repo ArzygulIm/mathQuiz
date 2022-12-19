@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link rel="stylesheet" href="../../styles/media.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__wrap flex flex-ai-c flex-jc-sb">
+                <div class="game-title__wrap">
+                    <p class="gameName"></p>
+                </div>
+                <a href="../../index.html" class="logo flex flex-ai-c flex-jc-c">
+                    <img src="../../images/logoMath.png" alt="">
+                    <p>Main</p>
+                </a>
+                <a href="../leaders/leaders.html" class="leadersLink flex flex-ai-c flex-jc-c">
+                    <img src="../../images/podium.png" alt="">
+                    <p>Leaders</p>
+                </a>
+                <button id="logOut">Log out!</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="rules">
+        <div class="container">
+            <div class="rules__wrap flex flex-fd-c flex-ai-c flex-jc-c">
+                <h5>Rules</h5>
+                <ol>
+                    <li>You can't start the game if you haven't written your name.</li>
+                    <li>If the answer is correct, 1 point is added; otherwise, 1 point is deducted.</li>
+                    <li>There are two modes to play:
+                        <ol>
+                            <li>
+                                <span>Practice Mode</span>
+                                <p>In this mode, you can endlessly solve examples.</p>
+                                <p>If you want to end the game, press the button to stop the game</p>
+                            </li>
+                            <li>Time Attack Mode
+                                <span></span>
+                                <p>You have 1 minute 30 seconds to solve the examples</p>
+                                <p>you can see the timer, how much time do you have left</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        Examples can be with 4 operations (addition, subtraction, division, multiplication)
+                        Press enter to submit your answer.
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+<script src="./rules.js"></script>
+    <script src="../../js/animations.js"></script>
+</body>
+
+</html>

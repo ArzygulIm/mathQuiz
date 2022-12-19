@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+#rules {
+    padding: 100px;
+    position: relative;
+    z-index: 2;
+    font-family: 'Yomogi', cursive;
+    font-size: 20px;
+
+    .rules__wrap {
+        width: 100%;
+        padding: 15px 10px 15px 50px;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+
+        h5 {
+            font-size: 30px;
+        }
+
+        ol {
+            li {
+                ol {
+                    margin-left: 30px;
+
+                    li::marker {
+                        content: counter(list-item) ") ";
+                    }
+                }
+            }
+        }
+    }
+}

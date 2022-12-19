@@ -1,0 +1,114 @@
+@media (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+  #rules {
+    padding: 50px 0;
+  }
+  #leaderBoard {
+    padding: 50px 0;
+  }
+  .modal {
+    padding: 30px 20px;
+  }
+  .modal h6,
+.modalScore {
+    font-size: 30px;
+  }
+}
+@media (max-width: 650px) {
+  header {
+    font-size: 20px;
+  }
+  header button {
+    padding: 10px 30px;
+  }
+  #level {
+    font-size: 30px;
+  }
+  .modal {
+    width: 60%;
+  }
+}
+@media (max-width: 650px) {
+  header {
+    font-size: 15px;
+  }
+  header button {
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+  #level {
+    font-size: 20px;
+  }
+  .main__form {
+    padding: 25px;
+  }
+  .main__form h5 {
+    font-size: 20px;
+  }
+  .main__form .radio__box label {
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+  .main__form .radio__box input[type=radio]:checked ~ label {
+    padding: 13px 34px;
+  }
+  .main__form .rulesLink,
+.main__form a {
+    font-size: 15px;
+  }
+  .modal h6,
+.modalScore {
+    font-size: 20px;
+  }
+  .rightAnswerWrap, .wrongAnswerWrap {
+    font-size: 15px;
+  }
+  .modal {
+    width: 70%;
+    height: 65%;
+  }
+}
+@media (max-width: 450px) {
+  .modal {
+    height: 60%;
+  }
+  .modal h6,
+.modalScore {
+    font-size: 15px;
+  }
+  .logo img,
+.leadersLink img,
+.rulesLink img {
+    display: none;
+  }
+  .leaderBoard__wrap {
+    padding: 30px;
+  }
+  .question__wrap {
+    font-size: 30px;
+    width: 250px;
+  }
+  .questionSpan {
+    margin-right: -5px;
+  }
+  .modal {
+    width: 80%;
+  }
+}
+@media (max-width: 400px) {
+  header button {
+    padding: 10px;
+  }
+  .question__wrap {
+    font-size: 20px;
+    width: 200px;
+  }
+  .main__form .radio__box label {
+    padding: 10px;
+  }
+  .main__form .radio__box input[type=radio]:checked ~ label {
+    padding: 13px;
+  }
+}/*# sourceMappingURL=media.css.map */

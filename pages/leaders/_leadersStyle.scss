@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
+#leaderBoard {
+    padding: 50px;
+    position: relative;
+    z-index: 2;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+}
+
+.leaderBoard__wrap {
+    width: 100%;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+
+    .gameModeWrap{
+        margin-bottom: 20px;
+        p{
+            font-size: 15px;
+            margin-right: 10px;
+        }
+        select{
+            font-family: 'Philosopher', sans-serif;
+            font-size: 15px;
+            border: none;
+            outline: none;
+        }
+    }
+    table {
+        width: 100%;
+    }
+
+    th,
+    td {
+        padding: 5px;
+        text-align: center;
+    }
+}
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

@@ -1,0 +1,182 @@
+$color1: #00fd54;
+$color2: #0098fd;
+$color3: #fd00f0;
+$color4: #fd7200;
+$color5: #09005e;
+$color6: #ecfd00;
+$color7: #00fdfd;
+$color8: #fd0000;
+$color9: #03790d;
+$color10: #008b80;
+$color11: #be7200;
+$color12: #cf95ff;
+$color13: #d80b0b;
+$color14: #636363;
+$color15: #8cff9f;
+$color16: #bd3076;
+$color17: #58995e;
+$color18: #0d114d;
+$color19: #bfff29;
+$color20: #9c1818;
+
+@function random-value() {
+    $random: random(90);
+    @return $random;
+}
+
+#background {
+    .cube {
+        position: fixed;
+        transform-origin: 0 0;
+        transform: scale(0) rotate(0deg) translate(-50%, -50%);
+        animation: cube 38s infinite;
+        top: 5+random-value()*1vh;
+        left: 5+random-value()*1vw;
+        color: $color1;
+
+        &:nth-child(2) {
+            animation-delay: 2s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color2;
+        }
+
+        &:nth-child(3) {
+            animation-delay: 4s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color3;
+        }
+
+        &:nth-child(4) {
+            animation-delay: 6s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color4;
+        }
+
+        &:nth-child(5) {
+            animation-delay: 8s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color5;
+        }
+
+        &:nth-child(6) {
+            animation-delay: 10s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color6;
+        }
+
+        &:nth-child(7) {
+            animation-delay: 12s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color7;
+        }
+
+        &:nth-child(8) {
+            animation-delay: 14s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color8;
+        }
+
+        &:nth-child(9) {
+            animation-delay: 16s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color9;
+        }
+
+        &:nth-child(10) {
+            animation-delay: 18s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color10;
+        }
+
+        &:nth-child(11) {
+            animation-delay: 20s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color11;
+        }
+
+        &:nth-child(12) {
+            animation-delay: 22s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color13;
+        }
+
+        &:nth-child(13) {
+            animation-delay: 24s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color13;
+        }
+
+        &:nth-child(14) {
+            animation-delay: 26s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color14;
+        }
+
+        &:nth-child(15) {
+            animation-delay: 28s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color15;
+        }
+
+        &:nth-child(16) {
+            animation-delay: 30s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color16;
+        }
+
+        &:nth-child(17) {
+            animation-delay: 32s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color17;
+        }
+
+        &:nth-child(18) {
+            animation-delay: 34s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color18;
+        }
+
+        &:nth-child(19) {
+            animation-delay: 36s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color19;
+        }
+
+        &:nth-child(20) {
+            animation-delay: 38s;
+            top: 5+random-value()*1vh;
+            left: 5+random-value()*1vw;
+            color: $color20;
+        }
+    }
+}
+
+@keyframes cube {
+    from {
+        transform: scale(0) rotate(0deg) translate(-50%, -50%);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(40) rotate(960deg) translate(-50%, -50%);
+        opacity: 0;
+    }
+}

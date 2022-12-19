@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+header {
+    font-family: 'Irish Grover', cursive;
+    font-size: 30px;
+    padding: 10px 0;
+    position:relative;
+    z-index: 2;
+
+    .gameName {
+        margin-left: 10px;
+    }
+
+    button {
+        padding: 10px 45px;
+        cursor: pointer;
+        font-family: 'Irish Grover', cursive;
+        font-size: 20px;
+    }
+
+    a{
+        img{
+            margin-right: 10px;
+        }
+    }
+}
+
+.logo,
+.rulesLink,
+.leadersLink{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+    img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+}

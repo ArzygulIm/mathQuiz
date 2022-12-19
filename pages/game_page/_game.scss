@@ -8,10 +8,10 @@
     color: red;
 }
 
-.level__wrap { 
+.level__wrap {
     width: 100%;
 
-    div{
+    div {
         column-gap: 10px;
     }
 }
@@ -23,12 +23,14 @@
     border: 3px solid rgb(114, 114, 114);
 }
 
-#practice, #timeAttack {
+#practice,
+#timeAttack {
     padding: 10px 0;
     font-family: 'Laila', sans-serif;
 }
 
-.practice, .timeAttack {
+.practice,
+.timeAttack {
     &__wrap {
         padding: 20px;
         background-color: rgba(255, 255, 255, 0.8);
@@ -45,10 +47,11 @@
     row-gap: 10px;
 }
 
-.questionSpan{
+.questionSpan {
     height: 62px;
     margin-right: -10px;
 }
+
 .answerSpan {
     height: 62px;
 }
@@ -63,13 +66,15 @@
     right: 0;
 }
 
-.stopGame{
+.stopGame {
     cursor: pointer;
     padding: 10px;
-    span{
+
+    span {
         font-size: 20px;
     }
-    img{
+
+    img {
         width: 20px;
         height: 20px;
         margin-right: 10px;
@@ -89,4 +94,13 @@
     background-color: green;
     text-shadow: 1px 1px 2px red, -1px 1px 2px red, 1px -1px 2px red, -1px -1px 2px red;
     border: none;
+}
+
+#answerInput {
+    display: none;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
 }

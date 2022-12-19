@@ -111,141 +111,141 @@ header a img {
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
   -webkit-animation: cube 38s infinite;
           animation: cube 38s infinite;
-  top: 87vh;
-  left: 89vw;
+  top: 18vh;
+  left: 58vw;
   color: #00fd54;
 }
 #background .cube:nth-child(2) {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
-  top: 17vh;
-  left: 30vw;
+  top: 29vh;
+  left: 34vw;
   color: #0098fd;
 }
 #background .cube:nth-child(3) {
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
-  top: 13vh;
-  left: 92vw;
+  top: 10vh;
+  left: 59vw;
   color: #fd00f0;
 }
 #background .cube:nth-child(4) {
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
-  top: 28vh;
-  left: 12vw;
+  top: 75vh;
+  left: 63vw;
   color: #fd7200;
 }
 #background .cube:nth-child(5) {
   -webkit-animation-delay: 8s;
           animation-delay: 8s;
-  top: 55vh;
-  left: 80vw;
+  top: 69vh;
+  left: 41vw;
   color: #09005e;
 }
 #background .cube:nth-child(6) {
   -webkit-animation-delay: 10s;
           animation-delay: 10s;
-  top: 50vh;
-  left: 24vw;
+  top: 69vh;
+  left: 88vw;
   color: #ecfd00;
 }
 #background .cube:nth-child(7) {
   -webkit-animation-delay: 12s;
           animation-delay: 12s;
-  top: 43vh;
-  left: 21vw;
+  top: 88vh;
+  left: 7vw;
   color: #00fdfd;
 }
 #background .cube:nth-child(8) {
   -webkit-animation-delay: 14s;
           animation-delay: 14s;
-  top: 37vh;
-  left: 66vw;
+  top: 14vh;
+  left: 33vw;
   color: #fd0000;
 }
 #background .cube:nth-child(9) {
   -webkit-animation-delay: 16s;
           animation-delay: 16s;
-  top: 34vh;
-  left: 22vw;
+  top: 10vh;
+  left: 83vw;
   color: #03790d;
 }
 #background .cube:nth-child(10) {
   -webkit-animation-delay: 18s;
           animation-delay: 18s;
-  top: 57vh;
-  left: 85vw;
+  top: 16vh;
+  left: 70vw;
   color: #008b80;
 }
 #background .cube:nth-child(11) {
   -webkit-animation-delay: 20s;
           animation-delay: 20s;
-  top: 55vh;
-  left: 16vw;
+  top: 44vh;
+  left: 9vw;
   color: #be7200;
 }
 #background .cube:nth-child(12) {
   -webkit-animation-delay: 22s;
           animation-delay: 22s;
-  top: 63vh;
-  left: 63vw;
+  top: 71vh;
+  left: 14vw;
   color: #d80b0b;
 }
 #background .cube:nth-child(13) {
   -webkit-animation-delay: 24s;
           animation-delay: 24s;
-  top: 89vh;
-  left: 26vw;
+  top: 6vh;
+  left: 44vw;
   color: #d80b0b;
 }
 #background .cube:nth-child(14) {
   -webkit-animation-delay: 26s;
           animation-delay: 26s;
-  top: 42vh;
-  left: 60vw;
+  top: 48vh;
+  left: 43vw;
   color: #636363;
 }
 #background .cube:nth-child(15) {
   -webkit-animation-delay: 28s;
           animation-delay: 28s;
-  top: 19vh;
-  left: 58vw;
+  top: 20vh;
+  left: 90vw;
   color: #8cff9f;
 }
 #background .cube:nth-child(16) {
   -webkit-animation-delay: 30s;
           animation-delay: 30s;
-  top: 35vh;
-  left: 47vw;
+  top: 30vh;
+  left: 36vw;
   color: #bd3076;
 }
 #background .cube:nth-child(17) {
   -webkit-animation-delay: 32s;
           animation-delay: 32s;
-  top: 41vh;
-  left: 60vw;
+  top: 8vh;
+  left: 83vw;
   color: #58995e;
 }
 #background .cube:nth-child(18) {
   -webkit-animation-delay: 34s;
           animation-delay: 34s;
-  top: 85vh;
-  left: 60vw;
+  top: 63vh;
+  left: 16vw;
   color: #0d114d;
 }
 #background .cube:nth-child(19) {
   -webkit-animation-delay: 36s;
           animation-delay: 36s;
-  top: 73vh;
-  left: 75vw;
+  top: 94vh;
+  left: 34vw;
   color: #bfff29;
 }
 #background .cube:nth-child(20) {
   -webkit-animation-delay: 38s;
           animation-delay: 38s;
-  top: 67vh;
-  left: 12vw;
+  top: 82vh;
+  left: 15vw;
   color: #9c1818;
 }
 
@@ -482,12 +482,14 @@ header a img {
   border: 3px solid rgb(114, 114, 114);
 }
 
-#practice, #timeAttack {
+#practice,
+#timeAttack {
   padding: 10px 0;
   font-family: "Laila", sans-serif;
 }
 
-.practice__wrap, .timeAttack__wrap {
+.practice__wrap,
+.timeAttack__wrap {
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
@@ -546,6 +548,13 @@ header a img {
   background-color: green;
   text-shadow: 1px 1px 2px red, -1px 1px 2px red, 1px -1px 2px red, -1px -1px 2px red;
   border: none;
+}
+
+#answerInput {
+  display: none;
+}
+#answerInput::-webkit-outer-spin-button, #answerInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 #gameOverModal {

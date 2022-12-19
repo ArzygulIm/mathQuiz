@@ -129,6 +129,7 @@ document.addEventListener('keydown', event => {
         setTimeout(() => {
             changeScoreSpan.classList.remove("redColor", "greenColor")
             answerStr = ""
+            document.getElementById('answerInput').value = ""
             changeScoreSpan.textContent = ''
             document.querySelector(".scoreSpan").innerHTML = `${score}`
             document.querySelector('.answerSpan').textContent = answerStr
@@ -211,3 +212,7 @@ function timer() {
         document.querySelector('.timerChild').style.width = "100%"
     })
 }
+
+document.querySelector('.answerSpan').addEventListener('click',()=>{
+    document.getElementById('answerInput').style.display = "block"
+})

@@ -213,7 +213,7 @@ function timer() {
     })
 }
 
-document.querySelector('.answerSpan').addEventListener('click', () => {
+document.querySelector('.question__wrap').addEventListener('click', () => {
     document.getElementById('answerInput').style.display = "block"
     document.getElementById('checkBtn').style.display = "block"
     document.getElementById('answerInput').focus()

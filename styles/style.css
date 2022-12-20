@@ -111,141 +111,141 @@ header a img {
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
   -webkit-animation: cube 38s infinite;
           animation: cube 38s infinite;
-  top: 59vh;
-  left: 51vw;
+  top: 67vh;
+  left: 19vw;
   color: #00fd54;
 }
 #background .cube:nth-child(2) {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
-  top: 48vh;
-  left: 46vw;
+  top: 49vh;
+  left: 11vw;
   color: #0098fd;
 }
 #background .cube:nth-child(3) {
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
-  top: 38vh;
-  left: 42vw;
+  top: 92vh;
+  left: 41vw;
   color: #fd00f0;
 }
 #background .cube:nth-child(4) {
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
-  top: 83vh;
-  left: 20vw;
+  top: 55vh;
+  left: 16vw;
   color: #fd7200;
 }
 #background .cube:nth-child(5) {
   -webkit-animation-delay: 8s;
           animation-delay: 8s;
-  top: 82vh;
-  left: 93vw;
+  top: 14vh;
+  left: 6vw;
   color: #09005e;
 }
 #background .cube:nth-child(6) {
   -webkit-animation-delay: 10s;
           animation-delay: 10s;
-  top: 56vh;
-  left: 94vw;
+  top: 21vh;
+  left: 95vw;
   color: #ecfd00;
 }
 #background .cube:nth-child(7) {
   -webkit-animation-delay: 12s;
           animation-delay: 12s;
-  top: 52vh;
-  left: 76vw;
+  top: 93vh;
+  left: 57vw;
   color: #00fdfd;
 }
 #background .cube:nth-child(8) {
   -webkit-animation-delay: 14s;
           animation-delay: 14s;
-  top: 15vh;
-  left: 10vw;
+  top: 20vh;
+  left: 72vw;
   color: #fd0000;
 }
 #background .cube:nth-child(9) {
   -webkit-animation-delay: 16s;
           animation-delay: 16s;
-  top: 23vh;
-  left: 22vw;
+  top: 16vh;
+  left: 70vw;
   color: #03790d;
 }
 #background .cube:nth-child(10) {
   -webkit-animation-delay: 18s;
           animation-delay: 18s;
-  top: 88vh;
-  left: 85vw;
+  top: 54vh;
+  left: 21vw;
   color: #008b80;
 }
 #background .cube:nth-child(11) {
   -webkit-animation-delay: 20s;
           animation-delay: 20s;
-  top: 57vh;
-  left: 73vw;
+  top: 90vh;
+  left: 71vw;
   color: #be7200;
 }
 #background .cube:nth-child(12) {
   -webkit-animation-delay: 22s;
           animation-delay: 22s;
-  top: 28vh;
-  left: 24vw;
+  top: 14vh;
+  left: 38vw;
   color: #d80b0b;
 }
 #background .cube:nth-child(13) {
   -webkit-animation-delay: 24s;
           animation-delay: 24s;
-  top: 74vh;
-  left: 94vw;
+  top: 44vh;
+  left: 37vw;
   color: #d80b0b;
 }
 #background .cube:nth-child(14) {
   -webkit-animation-delay: 26s;
           animation-delay: 26s;
-  top: 21vh;
-  left: 75vw;
+  top: 67vh;
+  left: 85vw;
   color: #636363;
 }
 #background .cube:nth-child(15) {
   -webkit-animation-delay: 28s;
           animation-delay: 28s;
-  top: 53vh;
-  left: 45vw;
+  top: 59vh;
+  left: 66vw;
   color: #8cff9f;
 }
 #background .cube:nth-child(16) {
   -webkit-animation-delay: 30s;
           animation-delay: 30s;
-  top: 66vh;
-  left: 43vw;
+  top: 92vh;
+  left: 86vw;
   color: #bd3076;
 }
 #background .cube:nth-child(17) {
   -webkit-animation-delay: 32s;
           animation-delay: 32s;
-  top: 56vh;
-  left: 84vw;
+  top: 63vh;
+  left: 32vw;
   color: #58995e;
 }
 #background .cube:nth-child(18) {
   -webkit-animation-delay: 34s;
           animation-delay: 34s;
-  top: 25vh;
-  left: 61vw;
+  top: 59vh;
+  left: 40vw;
   color: #0d114d;
 }
 #background .cube:nth-child(19) {
   -webkit-animation-delay: 36s;
           animation-delay: 36s;
-  top: 70vh;
-  left: 51vw;
+  top: 75vh;
+  left: 88vw;
   color: #bfff29;
 }
 #background .cube:nth-child(20) {
   -webkit-animation-delay: 38s;
           animation-delay: 38s;
-  top: 45vh;
-  left: 35vw;
+  top: 61vh;
+  left: 9vw;
   color: #9c1818;
 }
 

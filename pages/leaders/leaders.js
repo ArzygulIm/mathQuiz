@@ -20,8 +20,3 @@ const renderLeaderBoard = (data) =>{
 }
 
 renderLeaderBoard(JSON.parse(localStorage.getItem('current player array')).filter(el => el.gameMode == document.querySelector('select').value).sort(function(a, b){return b.score - a.score}))
-
-document.getElementById('logOut').addEventListener('click', () => {
-    localStorage.removeItem('current player')
-    alert("Player was deleted")
-})
